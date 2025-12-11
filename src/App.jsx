@@ -101,8 +101,7 @@ function AllHotels() {
                   src={room.images[0]} alt="hotel-img" title='View room details'
                   className="w-full md:w-1/2 h-64 rounded-xl object-cover cursor-pointer hover:scale-105 transition-transform duration-300"/>
                   <div className="md:w-1/2 flex flex-col gap-4">
-                    <p onClick={()=>{navigate(`/hotels/${room.id}`); scrollTo(0,0)}}
-                    className="text-gray-800 text-2xl md:text-3xl font-playfair cursor-pointer hover:text-indigo-600 transition-colors">{room.name}</p>
+                    <p className="text-gray-800 text-2xl md:text-3xl font-playfair cursor-pointer hover:text-indigo-600 transition-colors">{room.name}</p>
                     <div className="flex items-center gap-2">
                       <img src={assets.Starratingicon} alt="StartRating-icon" className='w-5 h-5'/>
                       <p className="text-gray-600">200+ reviews</p>
@@ -122,7 +121,8 @@ function AllHotels() {
                     </div>
                     <div className="flex items-center justify-between mt-4">
                       <p className="text-2xl font-bold text-customBlue">${room.price}/night</p>
-                      <button className="px-6 py-3 bg-customBlue text-white rounded-full hover:bg-safari-gold transition-colors font-medium shadow-md hover:shadow-lg">
+                      <button onClick={()=>{navigate(`/hotels/${room.id}`); scrollTo(0,0)}} 
+                      className="px-6 py-3 bg-customBlue text-white rounded-full hover:bg-safari-gold transition-colors font-medium shadow-md hover:shadow-lg">
                         View Details
                       </button>
                     </div>
