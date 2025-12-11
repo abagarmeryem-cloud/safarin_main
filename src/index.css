@@ -1,0 +1,18 @@
+/* Toujours mettre les imports en premier */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+/* Ensuite les directives Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tes styles personnalisés */
+html, body, #root {
+  height: 100%;
+  min-height: 100%;
+  background-color: inherit;
+}
+
+.font-playfair {
+  font-family: "Playfair", serif;
+}
