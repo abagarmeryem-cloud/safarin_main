@@ -91,15 +91,11 @@ function AllHotels() {
         <div className='min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex flex-col-reverse lg:flex-row items-start justify-between px-4 md:px-6
       lg:px-8 xl:px-25 py-8'>
       <div>
-            <div className="flex flex-col items-start text-left">
+            <div className="flex-1 flex-col items-start text-left">
                 <h1 className="font-serif text-4xl md:text-[40px]">All Hotels</h1>
-                <p className="text-sm md:text-base  text-gray-500/90 mt-2 max-w-174"> Découvrez tous les hôtels disponibles à Meknès. Que vous cherchiez un hôtel de luxe,
-          un riad traditionnel ou un séjour économique, nous avons sélectionné les meilleures options
-          pour rendre votre séjour inoubliable. Parcourez les hôtels, comparez les prix et réservez
-          facilement en quelques clics.</p>
             </div>
             {filteredAndSortedHotels.map((room)=>(
-              <div key={room.id} className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 mb-6 border border-gray-100 hover:border-indigo-200">
+              <div key={room.id} className="w-[58rem] bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 mb-6 border border-gray-100 hover:border-indigo-200">
                 <div className="flex flex-col md:flex-row items-start gap-6">
                   <img onClick={()=>{navigate(`/hotels/${room.id}`); scrollTo(0,0)}}
                   src={room.images[0]} alt="hotel-img" title='View room details'
@@ -136,8 +132,7 @@ function AllHotels() {
             ))}
         </div>
         {/*filters*/}
-          <div className="bg-white w-[28rem] border-2 border-gray-300 text-gray-600
-max-lg:mb-8 min-lg:mt-16">
+          <div className={`bg-white w-[15rem] border-2 border-gray-300 text-gray-600 max-lg:mb-8 min-lg:mt-16`}>
             <div className={`flex items-center justify-between px-5 py-2.5 min-lg:border-b
               border-gray-300 ${openFilters && "border-b"}`}>
               <p className="text-sm font-medium text-customBlue-800">FILTERS</p>
