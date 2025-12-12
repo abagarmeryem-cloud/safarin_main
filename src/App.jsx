@@ -176,7 +176,7 @@ function AllHotels() {
                   <div className="px-6 pt-8 pb-6">
                     <p className="font-semibold text-gray-800 pb-4 text-customBlue">Sort By</p>
                      {sortOptions.map((option,index)=>(
-                      <RadioButton key={index} label={option}/>
+                      <RadioButton key={index} label={option} selected={selectedSortOption === option} onChange={(label) => setSelectedSortOption(label)}/>
                      ))}
                   </div>
               </div>
