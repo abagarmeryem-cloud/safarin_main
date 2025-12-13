@@ -6,13 +6,16 @@ import breakfastZahra from './breakfstZahra.jpg'
 import ketchenZahra from './Ketchenzahra.jpg'
 import dwiraZahra from './riaddwiraZahra.jpg'
 import salonZahra from './SalonZahra.jpg'
-/*Hotel beaux arts*/
-import roomBeaux from './roomBeauxArts.jpg'
-import bedroomBeaux from './bedroomBeauxArts.jpg'
-import breakfastBeaux from './breakfastBeauxArts.jpg'
-import ketchenBeaux from './ketchenBeauxArts.jpg'
-import dwiraBeaux from './dwiraBeauxArts.jpg'
-import salonBeaux from './salonBeauxArts.jpg'
+/*Hotel Menzeh Dalia*/
+import HotelMenzahDalia1 from './HotelMenzahDalia1.jpeg'
+import HotelMenzahDalia2 from './HotelMenzahDalia2.jpeg'
+import HotelMenzahDalia3 from './HotelMenzahDalia3.jpeg'
+import HotelMenzahDalia4 from './HotelMenzahDalia4.jpeg'
+import HotelMenzahDalia5 from './HotelMenzahDalia5.jpeg'
+import HotelMenzahDalia6 from './HotelMenzahDalia6.jpeg'
+import HotelMenzahDalia7 from './HotelMenzahDalia7.jpeg'
+import HotelMenzahDalia8 from './HotelMenzahDalia8.jpg'
+import HotelMenzahDalia9 from './HotelMenzahDalia9.jpg'
 /*Hôtel-Ibis-*/
 import HôtelIbis1 from './Hôtel-Ibis-1.jpg'
 import HôtelIbis2 from './Hôtel-Ibis-2.jpeg'
@@ -150,5 +153,6 @@ export const imag={
     ,RiadSelma1,RiadSelma2,RiadSelma3,RiadSelma4,RiadSelma5,RiadSelma6,RiadSelma7,RiadSelma8,
     HotelVolubilis1,HotelVolubilis2,HotelVolubilis3,HotelVolubilis4,HotelVolubilis5,HotelVolubilis6,HotelVolubilis7,HotelVolubilis8,HotelVolubilis9,
     RiadRitaj1,RiadRitaj2,RiadRitaj3,RiadRitaj4,RiadRitaj5,RiadRitaj6,RiadRitaj7,RiadRitaj8,RiadRitaj9,
-    RiadYacout1,RiadYacout2,RiadYacout3,RiadYacout4,RiadYacout5,RiadYacout6,RiadYacout7,RiadYacout8
+    RiadYacout1,RiadYacout2,RiadYacout3,RiadYacout4,RiadYacout5,RiadYacout6,RiadYacout7,RiadYacout8,
+    HotelMenzahDalia1,HotelMenzahDalia2,HotelMenzahDalia3,HotelMenzahDalia4,HotelMenzahDalia5,HotelMenzahDalia6,HotelMenzahDalia7,HotelMenzahDalia8,HotelMenzahDalia9
 }

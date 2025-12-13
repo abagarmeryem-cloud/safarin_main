@@ -75,7 +75,8 @@ export const Hotels = [
     city: "Meknès",
     price: 50,
     rating: 4.1,
-    images: [
+    images: [imag.HotelMenzahDalia1,imag.HotelMenzahDalia2,imag.HotelMenzahDalia3,imag.HotelMenzahDalia4,
+      imag.HotelMenzahDalia5,imag.HotelMenzahDalia6,imag.HotelMenzahDalia7,imag.HotelMenzahDalia8,imag.HotelMenzahDalia9
     ],
     description: "Hôtel confortable avec chambres modernes, situé au centre de Meknès. Proximité des monuments et restaurants.",
     location: { address: "Quartier Marjane, Meknès" },
