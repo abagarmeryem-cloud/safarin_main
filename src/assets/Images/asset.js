@@ -9,7 +9,7 @@ import nonSmokingIcon from '../Images/nonsmokingicon.png';
 import receptionIcon from '../Images/receptionicon.png';
 import starIconFilled from '../Images/starIconFilled.png';
 import LocationIcon from '../Images/locationicon.png';
-import Starratingicon from '../Images/startRatingico.jpg';
+import Starratingicon from '../Images/startRatingico.png';
 import heartIcon from '../Images/heartIcon.png';
 import homeIcon from '../Images/homeIcon.png';
 import badgeIcon from '../Images/badgeIcon.png';

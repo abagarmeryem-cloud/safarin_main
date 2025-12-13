@@ -44,7 +44,11 @@ const RoomsDetails = () => {
           </div>
               {/*room highlights*/}
                 <div className='flex flex-col mt-10'>
-                    <h1 className='text-3xl md:text-4xl font-playfair mb-4'>Experience Luxury like never before</h1>
+                    <p className='text-2xl md:text-3xl font-playfair mb-4'>{room.description}</p>
+                      
+                      
+                      <div className="flex justify-between mt-6 mb-6">
+                        <div className="flex flex-col gap-4">
                       {/*room amenities*/}
                       <div className="flex flex-wrap items-center gap-3">
                       {room.facilities.map((item, index) => (
@@ -56,7 +60,7 @@ const RoomsDetails = () => {
                       ))}
                     </div>
                     {/*room types*/}
-                    <div className="flex flex-wrap items-center gap-3 mb-6 mt-6">
+                    <div className="flex flex-wrap items-center gap-3">
                       {room.rooms.map((item, index) => (
                         <div key={index} className="flex items-center gap-2 px-3 py-2 rounded-full bg-gray border border-customBlue hover:bg-safari-slate  hover:text-white transition-colors">
                           <p className="text-xs text-safari-dark font-medium">{item.type}</p>
@@ -64,18 +68,19 @@ const RoomsDetails = () => {
                         </div>
                       ))}
                     </div>
-                </div>
-                {/*Room Price*/}
-                  <div>
-                    <p className='text-2xl font-medium mt-6'>${room.price}/night</p>
                     </div>
+                {/*Room Price*/}
+                    <p className='text-2xl font-medium mt-6'>${room.price}/night</p>
+
+                  </div>
+                      </div>
+
                 {/*chekin chekout form*/}
                     <form className='flex flex-col md:flex-row items-start md:items-center
                     justify-between bg-white shadow-[0px_0px_20px_rgba(0,0,0,0.15)] p-6 rounded-xl
                     mx-auto mt-16 max-w-6xl'>
                         <div className='flex flex-col flex-wrap md:flex-row items-start md:items-center
-                        gap-4 md:gap-10 text-gray-500'>
-
+                        gap-4 md:gap-10 text-gray-500 '>
                             <div className='flex flex-col'>
                               <label htmlFor="checkInDate" className='font-medium'>Check-In</label>
                               <input type="date" id='checkInDate' placeholder='Check-In'

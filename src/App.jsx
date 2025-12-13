@@ -103,7 +103,7 @@ function AllHotels() {
                   <div className="md:w-1/2 flex flex-col gap-4">
                     <p className="text-gray-800 text-2xl md:text-3xl font-playfair cursor-pointer hover:text-indigo-600 transition-colors">{room.name}</p>
                     <div className="flex items-center gap-2">
-                      <img src={assets.Starratingicon} alt="StartRating-icon" className='w-5 h-5'/>
+                      <img src={assets.Starratingicon} alt="StartRating-icon" className='w-12 h-12'/>
                       <p className="text-gray-600">200+ reviews</p>
                     </div>
                     <div className="flex items-center gap-2 text-gray-500">
