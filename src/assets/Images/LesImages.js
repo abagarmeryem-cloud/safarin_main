@@ -136,6 +136,37 @@ import RiadYacout5 from './RiadYacout5.jpeg'
 import RiadYacout6 from './RiadYacout6.jpeg'
 import RiadYacout7 from './RiadYacout7.jeg'
 import RiadYacout8 from './RiadYacout8.jpeg'
+/*RiadZidania*/
+import RiadZidania1 from './RiadZidania1.jpg'
+import RiadZidania2 from './RiadZidania2.jpg'
+import RiadZidania3 from './RiadZidania3.jpg'
+import RiadZidania4 from './RiadZidania4.jpeg'
+import RiadZidania5 from './RiadZidania5.jpeg'
+import RiadZidania6 from './RiadZidania6.jpeg'
+import RiadZidania7 from './RiadZidania7.jpeg'
+/*RiadAtika1*/
+import RiadAtika1 from './RiadAtika1.jpg'
+import RiadAtika2 from './RiadAtika2.jpg'
+import RiadAtika3 from './RiadAtika3.jpeg'
+import RiadAtika4 from './RiadAtika4.jpeg'
+import RiadAtika5 from './RiadAtika5.jpeg'
+import RiadAtika6 from './RiadAtika6.jpeg'
+/*Riad Bab Berdaine*/
+import RiadBabBerdaine1 from './RiadBabBerdaine1.jpeg'
+import RiadBabBerdaine2 from './RiadBabBerdaine2.jpg'
+import RiadBabBerdaine3 from './RiadBabBerdaine3.jpg'
+import RiadBabBerdaine4 from './RiadBabBerdaine4.jpeg'
+import RiadBabBerdaine5 from './RiadBabBerdaine5.jpeg'
+import RiadBabBerdaine6 from './RiadBabBerdaine6.jpeg'
+import RiadBabBerdaine7 from './RiadBabBerdaine7.jpg'
+
+/*BabMansour*/
+import BabMansour1 from './BabMansour1.jpeg'
+import BabMansour2 from './BabMansour2.jpg'
+import BabMansour3 from './BabMansour3.jpeg'
+import BabMansour4 from './BabMansour4.jpeg'
+import BabMansour5 from './BabMansour5.jpeg'
+import BabMansour6 from './BabMansour6.jpeg'
 
 export const imag={
     roomZahra,roommZahra,dwiraZahra,salonZahra,ketchenZahra,breakfastZahra,bedroomZahra
@@ -155,4 +186,8 @@ export const imag={
     RiadRitaj1,RiadRitaj2,RiadRitaj3,RiadRitaj4,RiadRitaj5,RiadRitaj6,RiadRitaj7,RiadRitaj8,RiadRitaj9,
     RiadYacout1,RiadYacout2,RiadYacout3,RiadYacout4,RiadYacout5,RiadYacout6,RiadYacout7,RiadYacout8,
     HotelMenzahDalia1,HotelMenzahDalia2,HotelMenzahDalia3,HotelMenzahDalia4,HotelMenzahDalia5,HotelMenzahDalia6,HotelMenzahDalia7,HotelMenzahDalia8,HotelMenzahDalia9
+    ,RiadZidania1,RiadZidania2,RiadZidania3,RiadZidania4,RiadZidania5,RiadZidania6,RiadZidania7
+    ,RiadAtika1,RiadAtika2,RiadAtika3,RiadAtika4,RiadAtika5,RiadAtika6
+    ,RiadBabBerdaine1,RiadBabBerdaine2,RiadBabBerdaine3,RiadBabBerdaine4,RiadBabBerdaine5,RiadBabBerdaine6,RiadBabBerdaine7
+    ,BabMansour1,BabMansour2,BabMansour3,BabMansour4,BabMansour5,BabMansour6
 }

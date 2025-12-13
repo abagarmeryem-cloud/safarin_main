@@ -381,10 +381,8 @@ export const Hotels = [
     city: "Meknès",
     price: 37,
     rating: 4.3,
-    images: [
-      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/630345678.jpg",
-      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/630345901.jpg",
-      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/630345902.jpg"
+    images: [imag.RiadZidania1,imag.RiadZidania2,imag.RiadZidania3,imag.RiadZidania4,
+      imag.RiadZidania5,imag.RiadZidania6,imag.RiadZidania7
     ],
     description: "Petit riad avec chambres confortables, idéal pour découvrir la médina.",
     location: { address: "Médina, Meknès, Maroc" },
@@ -405,10 +403,8 @@ export const Hotels = [
     city: "Meknès",
     price: 36,
     rating: 4.2,
-    images: [
-      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/630456789.jpg",
-      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/630456012.jpg",
-      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/630456013.jpg"
+    images: [imag.RiadAtika1,imag.RiadAtika2,imag.RiadAtika3,imag.RiadAtika4,
+      imag.RiadAtika5,imag.RiadAtika6
     ],
     description: "Riad traditionnel avec patios et chambres décorées à la marocaine.",
     location: { address: "Médina, Meknès, Maroc" },
@@ -429,10 +425,8 @@ export const Hotels = [
     city: "Meknès",
     price: 34,
     rating: 4.1,
-    images: [
-      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/630567890.jpg",
-      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/630567123.jpg",
-      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/630567124.jpg"
+    images: [imag.RiadBabBerdaine1,imag.RiadBabBerdaine2,imag.RiadBabBerdaine3,imag.RiadBabBerdaine4,
+      imag.RiadBabBerdaine5,imag.RiadBabBerdaine6,imag.RiadBabBerdaine7
     ],
     description: "Maison d’hôtes avec ambiance traditionnelle et proximité du centre-ville.",
     location: { address: "Médina, Meknès, Maroc" },
@@ -449,38 +443,12 @@ export const Hotels = [
   },
   {
     id: 19,
-    name: "Riad Amazigh",
-    city: "Meknès",
-    price: 35,
-    rating: 4.2,
-    images: [
-      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/630678901.jpg",
-      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/630678234.jpg",
-      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/630678235.jpg"
-    ],
-    description: "Riad charmant avec chambres confortables et patios typiques marocains.",
-    location: { address: "Médina, Meknès, Maroc" },
-    facilities: [
-      { name: "Free WiFi", icon: facilityIcons["Free WiFi"] },
-      { name: "Non-Smoking", icon: facilityIcons["Non-Smoking"] },
-      { name: "Breakfast Included", icon: facilityIcons["Breakfast Included"] }
-    ],
-    rooms: [
-      { type: "Single", price: 35 },
-      { type: "Double", price: 50 },
-      { type: "Suite", price: 68 }
-    ]
-  },
-  {
-    id: 20,
     name: "Hotel Bab Mansour",
     city: "Meknès",
     price: 45,
     rating: 4.3,
-    images: [
-      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/630789012.jpg",
-      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/630789345.jpg",
-      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/630789346.jpg"
+    images: [imag.BabMansour1,imag.BabMansour2,imag.BabMansour3,imag.BabMansour4,
+      imag.BabMansour5,imag.BabMansour6
     ],
     description: "Hôtel de standing avec chambres modernes et proximité de Bab Mansour.",
     location: { address: "Rue Émir Abdelkader, Meknès, Maroc" },
